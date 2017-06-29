@@ -12,7 +12,7 @@ if user_input == "bags":
 	print("After that, you see that you have some time before the flight. Will you go to the giftshop or get some food? Type 'food' or 'giftshop'")
 	user_input = input()
 	if user_input == "food":
-    	print('''You order a burger... Its the best burger you've ever had in your life...You hear a voice on the intercom saying your name... 
+		print('''You order a burger... Its the best burger you've ever had in your life...You hear a voice on the intercom saying your name... 
 		you look at your watch and realize that you have two minuets to be on the plane...
 		you lost track of time enjoying that darn burger. You know that you'll never make it in time so you take one last bite of your burger symoblizing your defeat.''')
 	if user_input == "giftshop":
@@ -26,5 +26,7 @@ if user_input == "bathroom":
  		you let out a quite 'zoomzoom' as you gain on him and snag your bags back from him with a confident smirk. He sprints away. You look around and realize you have no idea where you are 
  		in this huge airport but get a glimps of gate 1111. You squeel with delight as you run over to your gate just in time!!! You give the checker guy your ticket and says
  		'scuse me sir, this ain't ur flight m8. This is gate 1111 not 111'...''')
- 		#print('''Two days after your defeat, you sulk on the couch watching Netflix...alone...and decide to switch to the news channel. 
-#'Flight 111 to London never arrived at the airport yesterday. However, the aircraft was found in the Australian desert due to the captains desire to see some kangaroos.' THE END''')
+
+
+print('''Two days after your defeat, you sulk on the couch watching Netflix...alone...and decide to switch to the news channel. 
+'Flight 111 to London never arrived at the airport yesterday. However, the aircraft was found in the Australian desert due to the captains desire to see some kangaroos.' THE END''')
