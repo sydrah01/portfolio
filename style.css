@@ -1,0 +1,30 @@
+
+@font-face {
+   font-family: typoQuik;
+   src: url(Typo Quik_Light_Demo.otf);
+}
+
+@font-face {
+   font-family: typoQuik;
+   src: url(Typo Quik_Light_Demo.otf);
+   font-weight: bold;
+}
+
+div {
+   font-family:typoQuik;
+}
+#likes {
+font-family:typoQuik;
+}
+
+#header {
+	font-family:typoQuik;
+}
+
+#background {
+	background-color:powderblue;
+}
+
+#bio {
+	font-family:bluefires_sample.ttf;
+}
