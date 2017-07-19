@@ -16,16 +16,20 @@ print(countries)
 # look for the index of that country
 F = 0
 L =len(countries)
+
+SearchInput= input('What country are you looking for?:')
 index = int((F+L))//2
-
-user_input=input()
-while(True):
-
-	if user_input == countries[index]:
+SearchInput=input()
+while (True):
+	
+	if SearchInput <= countries[index]:
+		index = int((F+L))//2
 		print("index")
 
-	elif user_input> countries[index]:
+	elif SearchInput> countries[index]:
+		index = int((F+L))//2
 		F=index
 
-	elif user_input< countries[index]:
+	elif SearchInput< countries[index]:
+		index = int((F+L))//2
 		L=index
